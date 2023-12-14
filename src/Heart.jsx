@@ -70,7 +70,7 @@ function Heart() {
     setLoading(true);
 
     // Send the input data to your server
-    fetch("https://python-ml-server-production.up.railway.app/heart", {
+    fetch("https://final-year-ml-server.onrender.com/heart", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

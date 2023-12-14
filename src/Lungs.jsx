@@ -89,7 +89,7 @@ function Lungs() {
     setLoading(true);
 
     // Send the input data to your server
-    fetch("https://python-ml-server-production.up.railway.app/lungs", {
+    fetch("https://final-year-ml-server.onrender.com/lungs", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
